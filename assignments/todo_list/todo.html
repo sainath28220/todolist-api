@@ -1,12 +1,64 @@
 <html>
     <head>
         <title>Todo List</title>
+        <link rel="stylesheet" href="./todo.css">
     </head>
     <body>
-        <div>
-            <input type='text' name='todo_input'>
-            <button type='submit'>Add Todo</button>
-            <div class='todos'></div>
+        <div class="dropdown">
+            <button class="dropbtn">Select Completed Or Pending</button>
+            <div class="dropdown-content">
+                <a href="#" id="btn1">Click here For complted</a>
+                <a href="#" id="btn2">Click here for pending</a>
+    
+            </div>
+        </div>
+        <h1 id="h1"></h1>
+        <div class="container1" id="container1">
+    
+    
+    
+            <div class="row" id="row">
+                <div class="column a">
+                    <h2>Id</h2>
+    
+                </div>
+                <div class="column b">
+                    <h2>User Id</h2>
+    
+                </div>
+                <div class="column c">
+                    <h2>Title</h2>
+    
+                </div>
+                <div class="column d">
+                    <h2>Completed</h2>
+    
+                </div>
+            </div>
+    
+    
+    
+    
+        </div>
+        <div class="container2" id="container2">
+            <div class="row" id="row">
+                <div class="column a">
+                    <h2>Id</h2>
+    
+                </div>
+                <div class="column b">
+                    <h2>User Id</h2>
+    
+                </div>
+                <div class="column c">
+                    <h2>Title</h2>
+    
+                </div>
+                <div class="column d">
+                    <h2>Completed</h2>
+    
+                </div>
+            </div>
         </div>
     </body>
     <script src='./script.js'></script>
